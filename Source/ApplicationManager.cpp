@@ -2,6 +2,7 @@
 
 ApplicationManager::ApplicationManager()
 {
+
 }
 
 ApplicationManager::~ApplicationManager()
