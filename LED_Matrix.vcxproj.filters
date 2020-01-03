@@ -52,5 +52,14 @@
     <ClInclude Include="Source\Headers\wiringPi.h">
       <Filter>Source Files\Header</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\Bar.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Common.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Foo.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
