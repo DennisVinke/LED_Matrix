@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0e8acf34-ca85-4578-8889-e50225c39ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{9ca98701-abd0-4574-a33a-e9413655d3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{45ea7665-07f6-4368-b8e4-8ed81731388c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Program.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ApplicationManager.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Headers\InputManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Headers\ApplicationManager.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\InputManager.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Applications.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\main.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Program.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Snake.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\StartScreen.hpp">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\wiringPi.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
