@@ -11,6 +11,6 @@ void pinMode(int, int) {
 
 }
 
-void digitalRead(int) {
-
+unsigned digitalRead(int) {
+	return 0;
 }

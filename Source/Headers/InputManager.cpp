@@ -9,7 +9,9 @@ InputManager::~InputManager() {
 }
 
 void InputManager::updateButtonStates() {
-	
+	for (unsigned i = 0; i < AMOUNT_OF_BUTTONS;i++) {
+		buttonStates[i] = digitalRead(buttons[i]);
+	}
 }
 
 bool InputManager::getState(unsigned index)
